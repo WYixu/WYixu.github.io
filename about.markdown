@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello! I'm Wang Yixu, now a student from UCAS.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I'm interested in semiconductor, programming(python, c++ and mathmatica),
+photography and reading(fiction and philosophy)! So, if you want to share
+something with me, please send an email to [wangyixu20@mails.ucas.ac.cn](wangyixu20@mails.ucas.ac.cn).
