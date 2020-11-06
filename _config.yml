@@ -26,7 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wyixu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:  WYiXu
-
+markdown: kramdown
 # Build settings
 theme: minima
 plugins:
