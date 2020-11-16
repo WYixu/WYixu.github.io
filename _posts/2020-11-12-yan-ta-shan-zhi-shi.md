@@ -26,3 +26,6 @@ granted. But without it, we would stop breathing.
 
 我太年轻了，甚至不懂怎么去爱她。
 ——小王子
+
+最是人间留不住，朱颜辞镜花辞树。
+——蝶恋花·阅尽天涯离别苦
