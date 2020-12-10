@@ -1,10 +1,8 @@
 ---
-title: 数 · 多项式 二
+title: 数 · 多项式 · 整环的整除性
 layout: post
 tag: 数
 ---
-
-# 整环的整除性
 
 在整环$R$中，$b\mid a\Leftrightarrow a=bc\Leftrightarrow a\in(b)$，$b$称为$a$的**因子**.
 例如，在$\mathbb{Z}$中，$\pm 1,\pm n$都是$n$的因子. 1的因子称为**单位**，单位也就是乘法可逆元.

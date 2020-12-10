@@ -1,5 +1,5 @@
 ---
-title: 数 · 多项式 三
+title: 数 · 多项式 · 整系数多项式
 layout: post
 tag: 数
 ---
