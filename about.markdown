@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello! Here is Wang Yixu's Blog!
+Hello! Here is My Blog!
 
 Interested in semiconductor, programming(python, C++ and mathematica),
 photography and reading(fiction and philosophy)! So, if you want to share
