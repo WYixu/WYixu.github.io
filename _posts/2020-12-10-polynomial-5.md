@@ -28,3 +28,24 @@ $f=\sum_{i=1}^r c_ix_1^{\alpha_1,i}\cdots c_ix_r^{\alpha_r,i},\alpha_{1,i}+\cdot
 
 **泛性质** 设$R$是交换幺环，$A$是$R$代数，$a_1,\cdots,a_n\in A$两两交换，则存在唯一的$R$代数同态$\phi:R[x_1,\cdots,x_n]\rightarrow A$，
 满足$\phi(x_i)=a_i$.
+
+**多元有理函数域**$K(x_1,\cdots,x_n)$是$K[x_1,\cdots,x_n]$的商域.
+
+$K[x_1,\cdots,x_n]$不是PID，ED，但仍是UFD.
+
+设$A=(a_{ij})\_{m\times n}$，$det(A)$看作$a_{ij}$的多项式，$det(A)$对每个变元的次数都是一，是$n$次齐次多项式且不可约.
+
+$f,g\in K[x_1,\cdots,x_n]$，$g$$m$次齐次，则$g\mid f\Rightarrow g\mid f_d(\forall d\in \mathbb{Z})$.
+
+**命题** 齐次多项式的不可约因子仍是齐次多项式.\\
+**证明**  首先，$g\mid f\Rightarrow g_{deg(g)}\mid f_{deg(f)}$. 这样，若$f$齐次可约，则$f$必有一次数更低的齐次因子.
+
+设$R$是交换幺环，$A$是交换的$R$代数，$S\subset A$，则$S$生成的$R$子代数$R\<S\>=\\{f(a_1,\cdots,a_r),f\in R[x_1,\cdots x_r],r\in\mathbb{N},a_i\in S\\}$.
+特别地，若$\mid S\mid=r$，则$R\<S\>=\\{f(a_1,\cdots,a_r),f\in R[x_1,\cdots x_r]\\}$.
+
+设$L\supset K$是域扩张，$S\subset L$，则在$L$中，$K[S]:=K\<S\>=$包含$K\cup S$的最小子环$=\\{f(a_1,\cdots,a_r),f\in K[x_1,\cdots x_r],r\in\mathbb{N},a_i\in S\\}$，
+$K(S)=$包含$K\cup S$的最小子域$=\\{p(a_1,\cdots,a_r)/q(a_1,\cdots,a_r),p,q\in K[x_1,\cdots x_r],r\in\mathbb{N},a_i\in S,q(a_1,\cdots,a_r)\ne0\\}$.
+
+**单扩张** 设$L\supset K$是域扩张，$\alpha\in L$，则$K(\alpha)=\\{p(\alpha)/q(\alpha),p,q\in K[x]\\}$，
+$K[\alpha]=\\{f(\alpha),f\in K[x]\\}$. 特别地，若$\alpha$在$K$上代数，即$\alpha$是$K$上某个首一不可约多项式方程$f(x)=0$的根，
+则$K[\alpha]=K(\alpha)\cong K[T]/(f(T))$；若$\alpha$在$K$上超越，则$K[\alpha]\cong K[T]$，$K(\alpha)\cong K(T)$.
